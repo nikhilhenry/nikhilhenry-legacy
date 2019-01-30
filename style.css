@@ -15,17 +15,15 @@
 }
 
 .img-title{
-  position: absolute;
   color: #ffffff;
-  text-align: center;
-  left: 0;
-  right: 0;
-  top:10%;
   letter-spacing: 3px;
+  top: 20%;
 }
 
 .jumbotron {
   display: flex!important;
+  justify-content: center;
+  align-items: center;
   align-items: center!important;
   background-image: url('img/background.jpg');
   background-size: cover;
