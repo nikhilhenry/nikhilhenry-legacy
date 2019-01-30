@@ -9,3 +9,26 @@
   background-color: transparent!important;
   background: none!important;
 }
+
+.backgrnd{
+  position: relative;
+}
+
+.img-title{
+  position: absolute;
+  color: #ffffff;
+  text-align: center;
+  left: 0;
+  right: 0;
+  top:10%;
+  letter-spacing: 3px;
+}
+
+.jumbotron {
+  display: flex!important;
+  align-items: center!important;
+  background-image: url('img/background.jpg');
+  background-size: cover;
+  color: #ffffff;
+  height: 750px;
+}
