@@ -1,8 +1,12 @@
 .bg-dark{
   background-color: transparent!important;
   background: none!important;
+  font-size: 25px;
 }
 
+.navbar-brand{
+  font-size: 30px;
+}
 .img-title{
   color: #ffffff;
   letter-spacing: 3px;
@@ -18,4 +22,30 @@
   background-size: cover;
   color: #ffffff;
   height: 100vh;
+}
+
+#read_more {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  z-index: 2;
+  display: inline-block;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  text-decoration: none;
+  font-size: 50px;
+}
+#scroll{
+  position:absolute;
+  vertical-align: bottom;
+  left: 30%;
+  bottom:0;
+  width: 50px;
+  height: 50px;
+  margin-left: -12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  box-sizing: border-box;
 }
