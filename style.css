@@ -1,0 +1,11 @@
+.first{
+  height:100vh;
+  min-height:400px;
+  background-size: cover;
+  background-image: url('img/background.jpg');
+}
+
+.bg-dark{
+  background-color: transparent!important;
+  background: none!important;
+}
