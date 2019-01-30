@@ -33,7 +33,20 @@
   -webkit-transform: translate(0, -50%);
   transform: translate(0, -50%);
   text-decoration: none;
-  font-size: 50px;
+}
+
+#read_more_instruction{
+  font-size: 35px;
+  position:absolute;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  z-index: 2;
+  display: inline-block;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-40%, -50%);
+  text-decoration: none;
+  color: #ffffff
 }
 #scroll{
   position:absolute;
