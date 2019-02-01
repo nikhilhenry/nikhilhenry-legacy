@@ -55,11 +55,13 @@ body{
 }
 
 #scroll{
+  font-weight:bold;
+  font-size:23px;
   position: absolute;
   text-align: center;
   left: 50%;
   color: white;
-  bottom: 52px;
+  bottom: 100px;
   transform: translate(-50%,50%);
 }
 
@@ -67,7 +69,8 @@ body{
 #scroll_button{
   display: block;
   position: absolute;
-  bottom: -24px;
+  bottom: -74px;
   left: 50%;
+  height:60px;
   transform: translate(-50%, 0);
 }
