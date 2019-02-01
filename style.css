@@ -18,6 +18,7 @@ body{
   top: 20%;
 }
 
+
 #navbar.shrink{
   height: 60px!important;
   transition: all ease .5s;
@@ -84,6 +85,11 @@ body{
   left: 50%;
   height:60px;
   transform: translate(-50%, 0);
+}
+
+#scroll:hover{
+  text-decoration: none;
+  color: #dbe1e4;
 }
 
 #about-me{
