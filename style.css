@@ -18,11 +18,22 @@ body{
   top: 20%;
 }
 
+#navbar.shrink{
+  height: 60px!important;
+  transition: all ease .5s;
+  background:rgba(36, 145, 235, 1)!important;
+  font-size: 20px;
+  align-items: center!important;
+}
+
+#navbar.shrink #logo{
+  font-size: 25px;
+}
+
 .jumbotron {
   display: flex!important;
   justify-content: center;
   align-items: center;
-  align-items: center!important;
   background-image: url('img/background.jpg');
   background-size: cover;
   color: #ffffff;
