@@ -1,3 +1,4 @@
+//for navbar shrink
 $(document).ready(function() {
 	$(window).scroll(function() {
   	if($(document).scrollTop() > 10) {
