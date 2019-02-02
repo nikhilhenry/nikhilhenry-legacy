@@ -17,6 +17,15 @@ body{
   letter-spacing: 3px;
   top: 20%;
 }
+
+.padding-lg{
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+.lead{
+  padding-top: 1rem;
+}
 #navbar.shrink{
   height: 60px!important;
   transition: all ease .5s;
