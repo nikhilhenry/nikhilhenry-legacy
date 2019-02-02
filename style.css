@@ -91,5 +91,6 @@ body{
 }
 
 #about-me{
-  width: 40vh;
+  height:60vh;
+  text-align: justify;
 }
