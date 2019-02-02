@@ -17,8 +17,6 @@ body{
   letter-spacing: 3px;
   top: 20%;
 }
-
-
 #navbar.shrink{
   height: 60px!important;
   transition: all ease .5s;
