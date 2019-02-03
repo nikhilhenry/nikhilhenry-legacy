@@ -21,6 +21,7 @@ body{
 .padding-lg{
   padding-left: 10rem;
   padding-right: 10rem;
+  padding-bottom: 10rem;
 }
 
 .lead{
@@ -99,7 +100,36 @@ body{
   color: #dbe1e4;
 }
 
-#aboutme{
-  height:60vh;
-  text-align: justify;
+/*Icons for skills*/
+#tensorflow{
+  color: black;
+  height: 150px;
+  width: 150px;
+}
+
+#unity{
+  height:150px;
+  width: 150px;
+}
+
+#web{
+  height:150px;
+  width: 150px;
+}
+
+#android{
+  height:150px;
+  width: 150px;
+  color: #a4c639;
+}
+
+#fusion360{
+  height:150px;
+  width: 150px;
+  color: #34e6cb;
+}
+
+#iot{
+  height:150px;
+  width: 150px;
 }
