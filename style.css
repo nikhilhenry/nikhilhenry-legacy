@@ -3,7 +3,11 @@ body{
   font-family: Roboto Mono;
 }
 
-.bg-dark{
+a{
+  text-decoration:none!important;
+}
+
+#navbar{
   background-color: transparent!important;
   background: none!important;
   font-size: 25px;
@@ -133,4 +137,13 @@ body{
 #iot{
   height:150px;
   width: 150px;
+}
+
+.socialIcons{
+  color: white;
+}
+
+.socialIcons:hover{
+  text-decoration: none;
+  color: #dbe1e4;
 }
