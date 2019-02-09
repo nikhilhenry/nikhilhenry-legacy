@@ -9,11 +9,10 @@ $('a[href*="#"]')
     ) {
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-      console.log("Target found")
       if (target.length) {
         event.preventDefault();
         $('html, body').animate({
-          scrollTop: target.offset().top - 70 
+          scrollTop: target.offset().top - 70
         }, 1000, function() {
           var $target = $(target);
           $target.focus();
